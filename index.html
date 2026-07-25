@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) with Consent Mode v2 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C1STM6NWR7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = gtag;
+
+      // Consent Mode v2 — default DENIED until the user makes a choice.
+      // Restore prior consent from localStorage so returning visitors aren't re-prompted.
+      (function () {
+        var stored = null;
+        try { stored = JSON.parse(localStorage.getItem('cookie_consent_v1') || 'null'); } catch (e) {}
+        var defaults = {
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          analytics_storage: 'denied',
+          functionality_storage: 'granted',
+          security_storage: 'granted',
+          wait_for_update: 500
+        };
+        gtag('consent', 'default', defaults);
+        if (stored && stored.choices) {
+          gtag('consent', 'update', stored.choices);
+        }
+      })();
+
+      gtag('js', new Date());
+      gtag('config', 'G-C1STM6NWR7', {
+        anonymize_ip: true,
+        // Cross-domain measurement: preserves client_id when users
+        // navigate between the production site and the Lovable preview.
+        linker: {
+          domains: [
+            'wonderfuldragonfruit.com',
+            'www.wonderfuldragonfruit.com',
+            'id-preview-119eb221--e14ff143-b583-4c70-81c3-259402bc9733.lovable.app'
+          ],
+          accept_incoming: true
+        }
+      });
+    </script>
+
+    <!-- Microsoft Clarity (loaded only after analytics consent) -->
+    <script>
+      (function () {
+        var CLARITY_ID = "wjvcj4m4m9";
+        function loadClarity() {
+          if (window.__clarityLoaded) return;
+          window.__clarityLoaded = true;
+          (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+          })(window, document, "clarity", "script", CLARITY_ID);
+        }
+        try {
+          var stored = JSON.parse(localStorage.getItem('cookie_consent_v1') || 'null');
+          if (stored && stored.choices && stored.choices.analytics_storage === 'granted') {
+            loadClarity();
+          }
+        } catch (e) {}
+        window.addEventListener('cookie-consent-updated', function (e) {
+          if (e && e.detail && e.detail.analytics_storage === 'granted') loadClarity();
+        });
+      })();
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wonderful Dragon Fruit | Commercial Farming & Worldwide Export</title>
+    <meta name="description" content="Commercial dragon fruit plant supply and farming consultation in South Africa. Export-quality Ruby and Sweet White cultivars. Premium plants since 2008." />
+    <meta name="author" content="Dragon Fruit Farming Africa (DFSA)" />
+    <meta name="keywords" content="dragon fruit south africa, buy dragon fruit plants, dragon fruit cuttings south africa, dragon fruit farming, ruby cultivar, sweet white cultivar, commercial dragon fruit, dragon fruit export, wonderful dragon fruit, DFSA, dragon fruit botswana, dragon fruit zimbabwe, dragon fruit namibia" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://wonderfuldragonfruit.com/" />
+    <meta property="og:title" content="Wonderful Dragon Fruit | Commercial Farming & Worldwide Export" />
+    <meta property="og:description" content="Commercial dragon fruit plant supply and farming consultation in South Africa. Export-quality Ruby and Sweet White cultivars. #DragonFruitFarming #AgriTech #SustainableFarming" />
+    <meta property="og:image" content="https://wonderfuldragonfruit.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Dragon Fruit Farming Africa" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Wonderful Dragon Fruit | Commercial Farming & Worldwide Export" />
+    <meta name="twitter:description" content="Commercial dragon fruit plant supply in South Africa. Export-quality Ruby and Sweet White cultivars since 2008. #DragonFruitFarming #ExportSouthAfrica" />
+    <meta name="twitter:image" content="https://wonderfuldragonfruit.com/og-image.png" />
+
+    <!-- Search Engine Verification -->
+    <meta name="google-site-verification" content="y8uehJzRVKRyol1JhOSj3v6TGETLJHPZtdbLVfGVou0" />
+    <meta name="msvalidate.01" content="C67882EF2AEEFBD6DBD112356697E118" />
+    <meta name="yandex-verification" content="8a23b40afb30ad75" />
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="canonical" href="https://wonderfuldragonfruit.com/" />
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://wonderfuldragonfruit.com/#organization",
+      "name": "Dragon Fruit Farming Africa",
+      "alternateName": ["DFSA", "Wonderful Dragon Fruit", "Dragon Fruit South Africa", "Healthy Fields", "Dragon Fruit Association of Africa", "Dragon Fruit Farmers Association"],
+      "url": "https://wonderfuldragonfruit.com",
+      "logo": "https://wonderfuldragonfruit.com/images/dfsa-logo.png",
+      "image": "https://wonderfuldragonfruit.com/og-image.png",
+      "description": "Buy dragon fruit plants in South Africa. Premium dragon fruit cuttings, farming support and expert consultations for growers across South Africa, Botswana, Zimbabwe and worldwide. Since 2008.",
+      "foundingDate": "2008",
+      "founder": {
+        "@type": "Person",
+        "name": "Max van Heerden",
+        "jobTitle": "Founder & Lead Consultant"
+      },
+      "contactPoint": [
+        { "@type": "ContactPoint", "telephone": "+27-83-447-4639", "contactType": "sales", "areaServed": "ZA", "availableLanguage": ["English", "Afrikaans"] },
+        { "@type": "ContactPoint", "telephone": "+1-351-777-2848", "contactType": "customer service", "areaServed": "Worldwide", "availableLanguage": "English" }
+      ],
+      "email": "admin@proagrisa.co.za",
+      "areaServed": ["South Africa", "Botswana", "Zambia", "Zimbabwe", "Uganda", "Namibia", "Malawi"],
+      "knowsAbout": ["Dragon Fruit Farming", "Pitaya Cultivation", "Agricultural Consulting", "Plant Propagation", "Dragon Fruit Varieties"],
+      "sameAs": [
+        "https://wonderfuldragonfruit.com/",
+        "https://www.tiktok.com/@maxvanheerden_proagrisa",
+        "https://www.instagram.com/wonderful_dragon_fruit_dfsa",
+        "https://www.linkedin.com/in/cornelius-andrias-van-heerden-10b18a350/",
+        "https://www.youtube.com/@CorneliusAndriasVanHeerden",
+        "https://x.com/HealthyFieldssa",
+        "https://web.facebook.com/profile.php?id=61571339863052",
+        "https://web.facebook.com/profile.php?id=61589209614070",
+        "https://web.facebook.com/profile.php?id=61565301583319",
+        "https://web.facebook.com/profile.php?id=61564586858163",
+        "https://web.facebook.com/profile.php?id=61563159332764",
+        "https://web.facebook.com/profile.php?id=61564791460426",
+        "https://web.facebook.com/profile.php?id=61560728786177",
+        "https://web.facebook.com/profile.php?id=61562992080499"
+      ]
+    }
+    </script>
+
+    <!-- AgricultureBusiness Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AgricultureBusiness",
+      "name": "Dragon Fruit Farm South Africa",
+      "description": "Dragon fruit plants and cuttings supplier in South Africa. Premium cultivars, farming consultations, and worldwide export since 2008.",
+      "url": "https://wonderfuldragonfruit.com",
+      "telephone": "+27-83-447-4639",
+      "email": "admin@proagrisa.co.za",
+      "foundingDate": "2008",
+      "areaServed": ["South Africa", "Botswana", "Zimbabwe", "Namibia", "Zambia", "Uganda", "Malawi"],
+      "keywords": ["dragon fruit south africa", "dragon fruit farming south africa", "buy dragon fruit plants", "dragon fruit cuttings south africa"],
+      "priceRange": "R25 - R35,000",
+      "paymentAccepted": "Credit Card, EFT, Cash",
+      "openingHours": "Mo-Fr 08:00-17:00"
+    }
+    </script>
+
+    <!-- WebSite Schema for Sitelinks Search Box -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Dragon Fruit Farming Africa",
+      "alternateName": "DFSA",
+      "url": "https://wonderfuldragonfruit.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://wonderfuldragonfruit.com/products?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can you grow dragon fruit in South Africa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, South Africa's climate is well-suited for dragon fruit farming. The plants thrive in warm, subtropical climates with well-draining soil and plenty of sunlight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take for a dragon fruit plant to produce fruit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When grown from cuttings (which is recommended for commercial farming), dragon fruit plants typically begin fruiting within 12 to 18 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I buy dragon fruit plants and cuttings in South Africa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can buy high-quality, export-grade dragon fruit cuttings directly from Dragon Fruit Farming Africa (DFSA). We supply premium cultivars like Ruby and Sweet White across South Africa and neighboring countries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What soil is best for dragon fruit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dragon fruit plants require well-draining soil. A sandy loam mixture with good organic matter is ideal to prevent root rot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide farming consultation for beginners?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Dragon Fruit Farming Africa offers expert consultations, complete starter packs, and ongoing support for both beginners and commercial farmers."
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
